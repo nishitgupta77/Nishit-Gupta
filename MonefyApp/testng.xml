@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Smoke-Test-Suite" >
+   <test name="MonefyApp" >
+       <classes> 
+            <class name="tests.NewExpenseTests"/>
+            <class name="tests.NewIncomeTests"/>
+            <class name="tests.DashboardTests"/>
+            <class name="tests.DashboardTests"/>
+            <class name="tests.TransferTests"/>
+       </classes>
+   </test>
+ </suite>
