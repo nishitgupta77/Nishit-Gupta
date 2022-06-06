@@ -1,7 +1,7 @@
 |Charter 1: Testing of income/ expense functionality| |
 |:----|:----|
 |Coverage Area|Testing of areas involving transactions:
--Adding income and expense using +/- icon
+||-Adding income and expense using +/- icon
 -Adding expense using the icons on the dashboard
 -Changing added values from Balance and checking update|
 |Test Environment|Production|
