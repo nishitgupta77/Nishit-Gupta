@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  android-emulator:
+    image: budtmo/docker-android:emulator_11.0
+    privileged: true
+    ports:
+      - "6080:6080"   # VNC access
+      - "4723:4723"   # Appium server
+      - "5554:5554"   # Emulator
+      - "5555:5555"   # ADB
+    environment:
+      - EMULATOR_DEVICE=Samsung Galaxy S10
+      - WEB_VNC=true
+      - APPIUM=true
+    devices:
+      - /dev/kvm
+
+  appium-tests:
+    build: .
+    depends_on:
+      - android-emulator
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - DEVICE_NAME=emulator-5554
+      - PLATFORM_NAME=Android
+      - PLATFORM_VERSION=11.0
+      - APP_PACKAGE=com.monefy.app.lite
+      - APP_ACTIVITY=com.monefy.activities.main.MainActivity
+    command: >
+      sh -c "sleep 30 && mvn clean test"
