@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-14T13:41:37 CEST" name="Smoke-Test-Suite" finished-at="2025-04-14T13:48:43 CEST" duration-ms="425504">
+    <groups>
+    </groups>
+    <test started-at="2025-04-14T13:41:37 CEST" name="MonefyApp" finished-at="2025-04-14T13:48:43 CEST" duration-ms="425504">
+      <class name="tests.DashboardTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DashboardTests@6771beb3]" started-at="2025-04-14T13:46:49 CEST" name="setup" finished-at="2025-04-14T13:47:00 CEST" duration-ms="10745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.DashboardTests@6771beb3]" started-at="2025-04-14T13:47:00 CEST" name="Initialize" finished-at="2025-04-14T13:47:00 CEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="iconExpenseTest()[pri:0, instance:tests.DashboardTests@6771beb3]" started-at="2025-04-14T13:47:00 CEST" name="iconExpenseTest" finished-at="2025-04-14T13:48:00 CEST" duration-ms="60313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iconExpenseTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.DashboardTests@6771beb3]" started-at="2025-04-14T13:48:00 CEST" name="Cleanup" finished-at="2025-04-14T13:48:01 CEST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+      </class> <!-- tests.DashboardTests -->
+      <class name="tests.TransferTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TransferTests@51399530]" started-at="2025-04-14T13:48:01 CEST" name="setup" finished-at="2025-04-14T13:48:17 CEST" duration-ms="15568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.TransferTests@51399530]" started-at="2025-04-14T13:48:17 CEST" name="Initialize" finished-at="2025-04-14T13:48:17 CEST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="AddTransfer()[pri:0, instance:tests.TransferTests@51399530]" started-at="2025-04-14T13:48:17 CEST" name="AddTransfer" finished-at="2025-04-14T13:48:41 CEST" duration-ms="24791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTransfer -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.TransferTests@51399530]" started-at="2025-04-14T13:48:41 CEST" name="Cleanup" finished-at="2025-04-14T13:48:43 CEST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+      </class> <!-- tests.TransferTests -->
+      <class name="tests.NewExpenseTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:41:37 CEST" name="setup" finished-at="2025-04-14T13:42:12 CEST" duration-ms="35194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:42:12 CEST" name="Initialize" finished-at="2025-04-14T13:42:13 CEST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="AddMultipleExpenseTest()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:42:13 CEST" name="AddMultipleExpenseTest" finished-at="2025-04-14T13:42:47 CEST" duration-ms="34655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMultipleExpenseTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:42:47 CEST" name="Cleanup" finished-at="2025-04-14T13:42:48 CEST" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:42:48 CEST" name="setup" finished-at="2025-04-14T13:43:01 CEST" duration-ms="13284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:43:01 CEST" name="Initialize" finished-at="2025-04-14T13:43:01 CEST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="AddNewExpenseTest()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:43:01 CEST" name="AddNewExpenseTest" finished-at="2025-04-14T13:43:20 CEST" duration-ms="18328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewExpenseTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:43:20 CEST" name="Cleanup" finished-at="2025-04-14T13:43:20 CEST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:43:20 CEST" name="setup" finished-at="2025-04-14T13:43:31 CEST" duration-ms="11160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:43:31 CEST" name="Initialize" finished-at="2025-04-14T13:43:31 CEST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="DeleteExpenseTest()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:43:31 CEST" name="DeleteExpenseTest" finished-at="2025-04-14T13:43:56 CEST" duration-ms="24952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteExpenseTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:43:56 CEST" name="Cleanup" finished-at="2025-04-14T13:43:57 CEST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:43:57 CEST" name="setup" finished-at="2025-04-14T13:44:08 CEST" duration-ms="10639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:44:08 CEST" name="Initialize" finished-at="2025-04-14T13:44:08 CEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="UpdateExpenseTest()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:44:08 CEST" name="UpdateExpenseTest" finished-at="2025-04-14T13:44:37 CEST" duration-ms="29569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateExpenseTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.NewExpenseTests@1a482e36]" started-at="2025-04-14T13:44:37 CEST" name="Cleanup" finished-at="2025-04-14T13:44:38 CEST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+      </class> <!-- tests.NewExpenseTests -->
+      <class name="tests.NewIncomeTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:44:38 CEST" name="setup" finished-at="2025-04-14T13:44:49 CEST" duration-ms="10991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:44:49 CEST" name="Initialize" finished-at="2025-04-14T13:44:49 CEST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="AddMultipleIncomeTest()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:44:49 CEST" name="AddMultipleIncomeTest" finished-at="2025-04-14T13:45:14 CEST" duration-ms="25152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMultipleIncomeTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:45:14 CEST" name="Cleanup" finished-at="2025-04-14T13:45:15 CEST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:45:15 CEST" name="setup" finished-at="2025-04-14T13:45:31 CEST" duration-ms="16055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:45:31 CEST" name="Initialize" finished-at="2025-04-14T13:45:31 CEST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="AddNewIncomeTest()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:45:31 CEST" name="AddNewIncomeTest" finished-at="2025-04-14T13:45:41 CEST" duration-ms="10344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewIncomeTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:45:41 CEST" name="Cleanup" finished-at="2025-04-14T13:45:42 CEST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:45:42 CEST" name="setup" finished-at="2025-04-14T13:45:53 CEST" duration-ms="11305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:45:53 CEST" name="Initialize" finished-at="2025-04-14T13:45:53 CEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="DeleteIncomeTest()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:45:53 CEST" name="DeleteIncomeTest" finished-at="2025-04-14T13:46:13 CEST" duration-ms="20278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteIncomeTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:46:13 CEST" name="Cleanup" finished-at="2025-04-14T13:46:14 CEST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:46:14 CEST" name="setup" finished-at="2025-04-14T13:46:26 CEST" duration-ms="11974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:46:26 CEST" name="Initialize" finished-at="2025-04-14T13:46:26 CEST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="UpdateIncomeTest()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:46:26 CEST" name="UpdateIncomeTest" finished-at="2025-04-14T13:46:49 CEST" duration-ms="22856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateIncomeTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:tests.NewIncomeTests@5e0e82ae]" started-at="2025-04-14T13:46:49 CEST" name="Cleanup" finished-at="2025-04-14T13:46:49 CEST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+      </class> <!-- tests.NewIncomeTests -->
+    </test> <!-- MonefyApp -->
+  </suite> <!-- Smoke-Test-Suite -->
+</testng-results>
