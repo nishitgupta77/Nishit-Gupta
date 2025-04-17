@@ -1,11 +1,11 @@
-# Use Maven to build the project
-FROM maven:3.8.5-openjdk-17 AS build
-WORKDIR /app
-COPY . .
-RUN mvn clean test-compile
+# Use Maven image with JDK 17
+FROM maven:3.9.6-eclipse-temurin-17 AS build
 
-# Use a lightweight Java image to run the tests
-FROM openjdk:17-jdk-slim
+# Set working directory
 WORKDIR /app
-COPY --from=build /app /app
-CMD ["mvn", "test"]
+
+# Copy project files
+COPY . .
+
+# Build the project and run tests
+RUN mvn clean test
