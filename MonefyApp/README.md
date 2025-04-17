@@ -118,3 +118,6 @@ Pom.xml: contains the maven dependencies.
 1. Clone the project from the repository shared.
 1. Download the maven dependencies.
 1. Run the testng.xml file using TestNg.
+
+**Test Reports**
+ Test report can be found here: MonefyApp/test-output/ExtentReport_20250414_142221.html

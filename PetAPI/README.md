@@ -92,5 +92,9 @@ Pom.xml: contains the maven dependencies.
 **To run the tests**
 
 1. Clone the project from the repository shared.
-1. Download the maven dependencies.
-1. Run the testng.xml file using TestNg.
+2. Download the maven dependencies.
+3. Run the testng.xml file using TestNg.
+4. Or alternatively, open terminal and run command: docker-compose up
+
+**Test reports**
+Test report is available on the path : PetAPI/test-output/API-Test-Suite
